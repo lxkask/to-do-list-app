@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts Link pro import fontu Inter -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+<body>
+    <!-- Container obsahující celou aplikaci -->
+    <div class="container"> 
+      <div class="todo-app">
+        <h2>To-Do List <img src="images/task-list.svg" alt="Task list SVG"></h2>
+        <!-- Pole pro přidání úkolů -->
+        <div class="task-input">
+            <input type="text" placeholder="Add a new task" id="input-box">
+            <button class="add-btn" onclick="addTask()"><img src="images/plus.svg" alt="Plus SVG"/></button>
+        </div>
+        <!-- Sekce pro filtrování tasků a tlačítko "Clear All" -->
+        <div class="controls">
+          <div class="filters">
+            <span id="all" class="filter active">All</span>
+            <span id="pending" class="filter">Pending</span>
+            <span id="completed" class="filter">Completed</span>
+          </div>
+          <button class="clear-btn" onclick="clearAllTasks()">Clear All</button>
+        </div>
+        <ul id="list-container">
+        </ul>
+      </div>
+    </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(186deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 30px;
+    background: white;
+    border-radius: 20px;
+}
+
+.todo-app h2 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-app h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.task-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ececec;   
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    font-weight: 14px;
+}
+
+button {
+    border: none;
+    outline: none; 
+    cursor: pointer;
+}
+
+.add-btn {
+    padding: 16px 50px;
+    border-radius: 20px;
+    background: #eeaeca;   
+}
+
+button img {
+    width: 25px;
+    filter: invert(100%) sepia(0%) saturate(6749%) hue-rotate(22deg) brightness(112%) contrast(103%);
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/radio-unchecked.svg);
+    background-size: cover;
+    background-position: center;
+    top: 9px;
+    left: 8px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    height: 28px;
+    width: 28px;
+    background-image: url(images/radio-checked.svg);
+    filter: invert(67%) sepia(70%) saturate(199%) hue-rotate(173deg) brightness(97%) contrast(88%);
+}
+
+ul li span {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 7px;
+}
+
+ul li span:first-of-type {
+    right: 0;
+}
+
+ul li span:first-of-type:hover {
+    filter: invert(67%) sepia(70%) saturate(199%) hue-rotate(173deg) brightness(97%) contrast(88%);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-bottom: 1px solid #CCC;
+    align-items: center;
+}
+
+.filters span {
+    cursor: pointer;
+    margin: 0 8px;
+}
+
+.filters span.active {
+    color: #94bbe9;
+}
+
+.clear-btn {
+    color: #FFF;
+    border-radius: 20px;
+    padding: 14px 37px;
+    margin-right: -20px;
+    background-color: #94bbe9;
+}
