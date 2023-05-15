@@ -1,36 +1,36 @@
-# To-Do List Aplikace
+# To-Do List Application
 
-Zpracoval Lukáš Kubík.
+By Lukáš Kubík.
 
-Jednoduchá To-Do List aplikace pro organizaci úkolů.
+A simple To-Do List application for organizing tasks.
 
-## Použité technologie
+## Used Technologies
 
 - HTML
 - CSS
 - JavaScript
 
-## Účel projektu
+## Project Purpose
 
-Projekt vznikl především za účelem přijímacího řízení DVOPu "Moderní webové aplikace". Aplikace umožňuje uživateli snadnou organizaci svých úkolů, jejich zapsání a přehled na jednom místě.
+The project was primarily created for the admission process of the "Modern Web Applications" class. The application allows users to easily organize their tasks and have an overview in one place.
 
-## Výsledek projektu 
+## Project Outcome
 
-Výsledkem projektu je Webová aplikace To-Do List, která poskytuje uživateli následující funkce:
+The result of the project is the To-Do List Web Application, which provides the following features to the user:
 
-- Přidávání nových úkolů.
-- Označování úkolů jako dokončených.
-- Odstraňování jednotlivých úkolů.
-- Možnost filtrovat úkoly podle jejich stavu (probíhající, dokončené).
-- Možnost smazat všechny úkoly najednou.
+1. Adding new tasks.
+2. Marking tasks as completed.
+3. Removing individual tasks.
+4. Filtering tasks based on their status (pending, completed).
+5. Option to clear all tasks at once.
 
-## Spuštění projektu
+## Running the Project
 
-Pro správné spuštění projektu postupujte následovně:
+To properly run the project, follow these steps:
 
-1. Naklonujte repozitář na své zařízení.
-2. Otevřete index.html ve svém prohlížeči.
+1. Clone the repository to your device.
+2. Open index.html in your web browser.
 
-Tímto způsobem aplikaci spustíte a budete moci začít používat To-Do List.
+By following these steps, you will launch the application and be able to start using the To-Do List.
 
-Pokud chcete přizpůsobit a vylepšit aplikaci, můžete upravit zdrojový kód dle svých potřeb.
+If you want to customize and enhance the application, you can modify the source code according to your needs.
